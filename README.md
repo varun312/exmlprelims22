@@ -1,6 +1,7 @@
 # exmlprelims22
 
-Each folder contains a 
+*Submission from Code Warriors (Delhi Public School, Vasant Kunj)*
+
 1. main.py
 > this was the file used to generate and train the model
 

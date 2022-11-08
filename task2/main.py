@@ -14,6 +14,18 @@ import os
 #     im1 = im.crop((left, top, right, bottom))
 #     im1 = im1.resize((2, 2))
 #     im1.save('C:/Varun/Codenges/ML/exun2022/prelims/task2/newdataset/one/'+str(i)+'.jpg')
+# for i in range(1, 10):
+#     im = Image.open('C:/Varun/Codenges/ML/exun2022/prelims/task2/binary/zero/'+str(i)+'.jpg')
+#     print(im.size)
+
+#     left = 1300
+#     top = 1300
+#     right = 1500
+#     bottom = 1500
+    
+#     im1 = im.crop((left, top, right, bottom))
+#     im1 = im1.resize((2, 2))
+#     im1.save('C:/Varun/Codenges/ML/exun2022/prelims/task2/newdataset/zero/'+str(i)+'.jpg')
 
 import tensorflow as tf
 model = tf.keras.models.Sequential([
